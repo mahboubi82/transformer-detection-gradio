@@ -1,0 +1,27 @@
+# Environnements
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Modeles (exclure les checkpoints intermediaires, garder best.pt)
+*.pth
+*.onnx
+runs/*/weights/last.pt
+runs/*/weights/epoch*.pt
+
+# Donnees
+dataset/
+raw/
+runs/
+*.csv
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Gradio
+gradio_cached_examples/
+flagged/
